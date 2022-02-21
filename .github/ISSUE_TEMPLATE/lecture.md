@@ -1,7 +1,7 @@
 ---
 name: Lecture
 about: Lecture of clean code's contents
-title: Ch x. xxx
+title: Ch x. Lecture
 labels: lecture
 assignees: wooyounggggg
 
