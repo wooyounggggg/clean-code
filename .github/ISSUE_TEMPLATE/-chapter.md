@@ -7,4 +7,4 @@ assignees: wooyounggggg
 
 ---
 
-제 x장 xxx summary & lecture
+Ch x. `xxx` summary & lecture
