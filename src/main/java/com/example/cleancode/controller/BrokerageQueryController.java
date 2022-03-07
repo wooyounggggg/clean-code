@@ -9,11 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author wooyounggggg
+ *
+ * 중개 수수료가 얼마인지 조회하는 컨트롤
  */
 @RestController
 public class BrokerageQueryController {
 
-    @GetMapping("/api/calc/brokerage")
+    @GetMapping("/api /calc/brokerage")
     public Long calcBrokerage(@RequestParam ActionType actionType, @RequestParam Long price) {
         /* TODO: 중개 수수료 계산 로직*/
         BrokeragePolicy policy = BrokeragePolicyFactory.of(actionType);
